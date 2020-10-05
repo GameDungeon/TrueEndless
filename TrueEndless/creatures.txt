@@ -46,6 +46,151 @@
       { type = "LeatherBoots" chance = 0.3 }
     }
   }
+  
+      "SEE_DARK_ELF" inherit "DARK_ELF"
+  {
+      attr = {
+      DAMAGE 20
+      DEFENSE 12
+	  SPELL_DAMAGE 30
+    }
+	 spells = { "advanced healing" "defense bonus" "directed blast" "advanced magic missile"}
+     inventory = {
+      { "IronStaff"}
+      { "Robe"}
+      { type = "LeatherGloves" chance = 0.3 }
+      { type = "LeatherBoots" chance = 0.3 }
+    }
+  }
+  
+	"SEE_DARK_ELF_LORD" inherit "DARK_ELF_LORD"
+ {
+    attr = {
+      DAMAGE 22
+      DEFENSE 14
+      SPELL_DAMAGE 36 
+    }
+    spells = { "advanced healing" "haste" "defense bonus" "rally" "directed blast" "expert magic missile"}
+    inventory = {
+      { type = "Robe" prefixChance = 1}
+      { type = "GoldenStaff" prefixChance = 1}
+	  { type = "LeatherGloves"}
+      { type = "LeatherBoots"}
+      { "GoldPiece" 80 120 }
+      { Scroll Escape }
+      { type = Glyph WEAPON JoinPrefixes { ItemAttrBonus DAMAGE 10 LastingEffect INSANITY} chance = 0.3 }
+      { type = Glyph ARMOR LastingEffect NIGHT_VISION chance = 0.3 }
+      { type = Glyph ARMOR LastingEffect ELF_VISION chance = 0.3 }
+      { type = Glyph ARMOR LastingEffect REGENERATION chance = 0.3 }
+      { type = Glyph WEAPON LastingEffect DARKNESS_SOURCE chance = 0.3 }
+      { type = Glyph WEAPON ItemAttrBonus SPELL_DAMAGE 4 chance = 0.3 }
+    }
+ }
+  "SEE_ORC" inherit "ORC"
+  {
+      inventory = {
+      { "Sword"}
+      { "ChainArmor"}
+      { type = "IronHelm" chance = 0.5 }
+      { type = "IronBoots" chance = 0.3 }
+    }
+  }
+  "SEE_HARPY" inherit "HARPY"
+  {
+      inventory = {
+      { "Bow"}
+      { "ChainArmor"}
+      { type = "IronHelm" chance = 0.5 }
+      { type = "IronBoots" chance = 0.3 }
+    }
+  }
+  "SEE_OGRE" inherit "OGRE"
+  {
+      inventory = {
+      { "HeavyClub"}
+      { "ChainArmor"}
+      { type = "IronHelm" chance = 0.5 }
+      { type = "IronBoots" chance = 0.3 }
+    }
+  }
+    "SEE_OGRE_WARLORD" inherit "SEE_OGRE"
+  {
+      inventory = {
+      { type = "WarHammer" prefixChance = 1 }
+      { type = "ChainArmor" prefixChance = 1 }
+      { "IronBoots"}
+      { "IronHelm"}
+	  { "IronGloves"}
+      { "GoldPiece" 80 120 }
+      { type = Glyph ARMOR ItemAttrBonus DEFENSE 4 chance = 0.3 }
+      { type = Glyph WEAPON JoinPrefixes { LastingEffect BAD_BREATH VictimEffect 0.2 Lasting PANIC } chance = 0.3 }
+    }
+  }
+  
+  
+  "SEE_ZOMBIE" inherit "ZOMBIE"
+    {
+      attr = {
+      DAMAGE 14
+      DEFENSE 17
+    }
+     inventory = {
+      { "Sword"}
+	  { "IronShield"}
+      { "LeatherArmor"}
+      { type = "LeatherHelm" chance = 0.5 }
+      { type = "LeatherBoots" chance = 0.3 }
+	  { type = "LeatherGloves" chance = 0.3 }
+	  { "GoldPiece" 2 6 }
+    }
+  }
+  "SEE_SKELETON" inherit "SKELETON"
+    {
+      attr = {
+      DAMAGE 24
+      DEFENSE 26
+	  RANGED_DAMAGE 25
+    }
+     inventory = {
+      { "BattleAxe"}
+	  { "Bow"}
+      { "LeatherArmor"}
+      { type = "LeatherHelm" chance = 0.5 }
+      { type = "LeatherBoots" chance = 0.3 }
+	  { type = "LeatherGloves" chance = 0.3 }
+	  { "GoldPiece" 2 6 }
+    }
+  }
+  "SEE_VAMPIRE" inherit "VAMPIRE"
+    {
+      attr = {
+      DAMAGE 24
+      DEFENSE 24
+      SPELL_DAMAGE 34
+    }
+     inventory = {
+      { "Robe"}
+      { "IronStaff"}
+    }
+  }
+  "SEE_VAMPIRE_LORD" inherit "VAMPIRE_LORD"
+    {
+      attr = {
+      DAMAGE 24
+      DEFENSE 28
+      SPELL_DAMAGE 36
+    }
+     inventory = {
+      { type = "Robe" prefixChance = 1}
+      { type = "GoldenStaff" prefixChance = 1}
+	  { type = "LeatherGloves"}
+      { type = "LeatherBoots"}
+      { "GoldPiece" 80 120 }
+      { Scroll Escape }
+      { type = Glyph WEAPON ItemAttrBonus SPELL_DAMAGE 4 chance = 0.3 }
+    }
+	 spells = { "defense bonus" "rally" "deception" }
+  }
  
   "SEE_KOBOLD" inherit "KOBOLD"
   {

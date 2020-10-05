@@ -101,7 +101,7 @@
   }
 
 ### Dwarves
-    {
+  {
     {
       all = { 
 		1 "DWARF"
@@ -183,13 +183,13 @@
 ### Elves
  {
     {
-      all = { 1 "ELF" }
+      all = { 1 "SEE_ELF" }
       count = { 1 }
-      baseLevelIncrease = { MELEE 4 }
+      baseLevelIncrease = { MELEE 0 }
     }
     KillLeader
     "a shifty elf"
-    { 1 2500 }
+    { 1500 3500 }
     1
   }
   {
@@ -308,9 +308,317 @@
 "evil"
 {
  ### Dark Elves
+   {
+    {
+      all = { 
+		1 "DARK_ELF_WARRIOR"
+	  }
+      count = { 8 12 }
+      baseLevelIncrease = { MELEE 0 }
+    }
+    KillLeader
+    "a group of dark elves"
+    { 4000 7500 }
+    4
+  }
+    {
+    {
+      all = { 
+		10 "DARK_ELF_WARRIOR"
+		1 "BLACK_NAGA"
+	  }
+      count = { 10 12 }
+      baseLevelIncrease = { MELEE 4 }
+    }
+    KillLeader
+    "a dark elf strike force"
+    { 6000 12000 }
+    5
+  }
+   {
+    {
+      all = { 
+		8 "DARK_ELF_WARRIOR"
+		2 "BLACK_NAGA"
+		4 "SEE_DARK_ELF"
+	  }
+	  uniques = { "SEE_DARK_ELF_LORD" }
+      count = { 12 16 }
+      baseLevelIncrease = { MELEE 8 SPELL 4}
+    }
+    KillLeader
+    "a dark elf assault"
+    { 10000 15000 }
+    6
+  }
+  {
+    {
+      all = {
+        8 "DARK_ELF_WARRIOR"
+        6 "SEE_DARK_ELF"
+		3 "BLACK_NAGA"
+		1 "SHELOB"
+      }
+      uniques = { "BLACK_DRAGON" "SEE_DARK_ELF_LORD" }
+      count = { 16 20 }
+      baseLevelIncrease = { MELEE 12 SPELL 8}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "an army of dwarves"
+    { 15000 30000 }
+    50
+  }
+    {
+    {
+      all = {
+        10 "DARK_ELF_WARRIOR"
+        8 "SEE_DARK_ELF"
+		4 "BLACK_NAGA"
+		2 "SHELOB"
+      }
+      uniques = { "BLACK_DRAGON" "SEE_DARK_ELF_LORD" }
+      count = { 20 28 }
+      baseLevelIncrease = { MELEE 16 SPELL 12}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a whole dark elf dungeon"
+    { 30000 100000 }
+    100
+  }
+  
  ### Greenskin
+
+  {
+    {
+      all = { 1 "ORC" }
+      count = { 3 5 }
+      baseLevelIncrease = { MELEE 4 }
+    }
+    KillLeader
+    "an orc scouting party"
+    { 1500 3500 }
+    2
+  }
+  {
+    {
+      all = { 
+		6 "ORC"
+		2 "ORC_HEALER"
+		1 "ORC_SHAMAN"
+		1 "ORC_MAGE"
+		
+	  }
+      count = { 8 12 }
+      baseLevelIncrease = { MELEE 8 SPELL 6}
+    }
+    KillLeader
+    "an orc assault"
+    { 4000 7500 }
+    4
+  }
+    {
+    {
+      all = { 
+		6 "ORC"
+		2 "ORC_HEALER"
+		1 "ORC_SHAMAN"
+		1 "ORC_MAGE"
+		2 "HARPY"
+		2 "OGRE"
+	  }
+      count = { 12 16 }
+      baseLevelIncrease = { MELEE 12 SPELL 8 ARCHERY 8 }
+    }
+    KillLeader
+    "a greenskin warband"
+    { 6000 12000 }
+    5
+  }
+   {
+    {
+      all = { 
+		6 "SEE_ORC"
+		2 "ORC_HEALER"
+		1 "ORC_SHAMAN"
+		1 "ORC_MAGE"
+		4 "SEE_HARPY"
+		4 "SEE_OGRE"
+	  }
+	  uniques = { "SEE_OGRE_WARLORD" }
+      count = { 16 20 }
+      baseLevelIncrease = { MELEE 16 SPELL 10 ARCHERY 10 }
+    }
+    KillLeader
+    "a greenskin onslaught"
+    { 10000 15000 }
+    6
+  }
+  {
+    {
+      all = {
+		6 "SEE_ORC"
+		2 "ORC_HEALER"
+		1 "ORC_SHAMAN"
+		1 "ORC_MAGE"
+		4 "SEE_HARPY"
+		4 "SEE_OGRE"
+	  }
+	  uniques = { "SEE_OGRE_WARLORD" }
+      count = { 20 26 }
+      baseLevelIncrease = { MELEE 20 SPELL 12 ARCHERY 12 }
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "an army of greenskins"
+    { 15000 30000 }
+    50
+  }
+    {
+    {
+      all = {
+		6 "SEE_ORC"
+		2 "ORC_HEALER"
+		1 "ORC_SHAMAN"
+		1 "ORC_MAGE"
+		4 "SEE_HARPY"
+		4 "SEE_OGRE"
+	  }
+	  uniques = { "SEE_OGRE_WARLORD" }
+      count = { 26 32 }
+      baseLevelIncrease = { MELEE 24 SPELL 14 ARCHERY 14 }
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a horde of greenskins"
+    { 30000 100000 }
+    100
+  }
+
  ### Undead
+    {
+    {
+      all = { 
+		10 "SEE_ZOMBIE"
+		8 "SEE_SKELETON"
+		4 "SEE_VAMPIRE"
+	  }
+	  uniques = { "SEE_VAMPIRE_LORD" }
+      count = { 20 24 }
+      baseLevelIncrease = { MELEE 0 }
+    }
+    KillLeader
+    "an undead conversion party"
+    { 10000 15000 }
+    6
+  }
+  {
+    {
+      all = {
+		10 "SEE_ZOMBIE"
+		8 "SEE_SKELETON"
+		4 "SEE_VAMPIRE"
+      }
+	  uniques = { "SEE_VAMPIRE_LORD" }
+      count = { 24 28 }
+      baseLevelIncrease = { MELEE 5 SPELL 5 ARCHERY 5}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "an undead army"
+    { 15000 30000 }
+    50
+  }
  ### Demons
+ {
+    {
+      all = { 1 "IMP" }
+      count = { 1 }
+      baseLevelIncrease = { MELEE 0 }
+    }
+    KillLeader
+    "a lonely imp"
+    { 1 2500 }
+    1
+  }
+    {
+    {
+      all = { 1 "DOPPLEGANGER" }
+      count = { 1 }
+      baseLevelIncrease = { MELEE 0 }
+    }
+    KillLeader
+    "a newborn doppleganger"
+    { 1500 3500 }
+    2
+  }
+    {
+    {
+      all = { 
+		6 "DEMON_DWELLER"
+		2 "ICE_DEMON"
+		2 "DEVIL_VAULT"
+	  }
+      count = { 8 12 }
+      baseLevelIncrease = { MELEE 0 }
+    }
+    KillLeader
+    "a pack of demons"
+    { 6000 12000 }
+    5
+  }
+   {
+    {
+      all = { 
+		8 "DEVIL_VAULT"
+		4 "ICE_DEMON"
+		2 "SUCCUBUS"
+	  }
+      count = { 12 16 }
+      baseLevelIncrease = { MELEE 4 }
+    }
+    KillLeader
+    "a demon war party"
+    { 10000 15000 }
+    6
+  }
+  {
+    {
+      all = {
+		8 "DEVIL_VAULT"
+		6 "ICE_DEMON"
+		2 "SUCCUBUS"
+		2 "DEMON_LORD"
+      }
+      uniques = { "DEVIL" }
+      count = { 16 20 }
+      baseLevelIncrease = { MELEE 8 SPELL 8}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "an army from hell"
+    { 15000 30000 }
+    50
+  }
+    {
+    {
+      all = {
+		12 "DEVIL_VAULT"
+		8 "ICE_DEMON"
+		2 "SUCCUBUS"
+		2 "DEMON_LORD"
+      }
+      uniques = { "DEVIL" }
+      count = { 20 28 }
+      baseLevelIncrease = { MELEE 12 SPELL 12 }
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a devilish legion"
+    { 30000 100000 }
+    100
+  }
 }
 
 "neutral"
@@ -390,7 +698,7 @@
 		2 "YELLOW_NAGA"
 		1 "HYDRA"
 	  }
-      count = { 15 20 }
+      count = { 16 20 }
       baseLevelIncrease = { MELEE 6 }
     }
     KillLeader
@@ -442,9 +750,38 @@
   ### Wizard
   ### Elementalist
   ### Gnomes
+    {
+    {
+      all = { 1 "GNOME" }
+      count = { 4 6 }
+      baseLevelIncrease = { MELEE 1 }
+    }
+    KillLeader
+    "a gnomish expedition"
+    { 1 2500 }
+    1
+  }
+  {
+    {
+      all = { 1 "AUTOMATON" }
+      count = { 1 }
+      baseLevelIncrease = { MELEE 0 }
+    }
+    KillLeader
+    "a rampaging automaton"
+    { 6000 12000 }
+    5
+  }
+    
   ### Ants
+  
+  
   ### Warriors
   ### Solo
   ### Special
   
 }
+  ### ENDGAME
+  
+ "endgame"
+  {}
