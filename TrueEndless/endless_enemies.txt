@@ -1,0 +1,450 @@
+"basic" modify
+{}
+"lawful"
+{ 
+### Knights
+
+  {
+    {
+      all = { 1 "PESEANT" }
+      count = { 3 5 }
+      baseLevelIncrease = { MELEE 0 }
+    }
+    KillLeader
+    "a bunch of angry peasants"
+    { 1 2500 }
+    1
+  }
+    {
+    {
+      all = { 1 "FRIAR" }
+      count = { 2 }
+      baseLevelIncrease = { MELEE 4 SPELL 4 }
+    }
+    KillLeader
+    "a pair of solicitors"
+    { 1500 3500 }
+    2
+  }
+    {
+    {
+      all = { 
+		8 "KNIGHT"
+		4 "ARCHER"
+		2 "PRIEST"
+	  }
+      count = { 8 12 }
+      baseLevelIncrease = { MELEE -10 SPELL -10 ARCHERY -10 }
+    }
+    KillLeader
+    "a knight war party"
+    { 6000 12000 }
+    5
+  }
+   {
+    {
+      all = { 
+		8 "KNIGHT"
+		4 "ARCHER"
+		2 "PRIEST"
+		1 "SEE_ANGEL"
+		1 "SEE_CHERUB"
+		1 "GALEAM"
+	  }
+      count = { 12 16 }
+      baseLevelIncrease = { MELEE -5 SPELL -5 ARCHERY -5 }
+    }
+    KillLeader
+    "a knight war party"
+    { 10000 15000 }
+    6
+  }
+  {
+    {
+      all = {
+		10 "KNIGHT"
+		6 "ARCHER"
+		2 "PRIEST"
+		1 "SEE_ANGEL"
+		2 "SEE_CHERUB"
+		2 "GALEAM"
+      }
+      uniques = { "DUKE" }
+      count = { 16 20 }
+      baseLevelIncrease = { MELEE 0}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a knight army"
+    { 15000 30000 }
+    50
+  }
+    {
+    {
+      all = {
+		12 "KNIGHT"
+		8 "ARCHER"
+		3 "PRIEST"
+		2 "SEE_ANGEL"
+		2 "SEE_CHERUB"
+		2 "GALEAM"
+      }
+      uniques = { "DUKE" }
+      count = { 20 28 }
+      baseLevelIncrease = { MELEE 5 SPELL 5 ARCHERY 5}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a bastion of knights"
+    { 30000 100000 }
+    100
+  }
+
+### Dwarves
+    {
+    {
+      all = { 
+		1 "DWARF"
+	  }
+      count = { 8 12 }
+      baseLevelIncrease = { MELEE 0 }
+    }
+    KillLeader
+    "a squad of dwarves"
+    { 4000 7500 }
+    4
+  }
+    {
+    {
+      all = { 
+		10 "DWARF"
+		1 "RED_NAGA"
+	  }
+      count = { 10 12 }
+      baseLevelIncrease = { MELEE 4 }
+    }
+    KillLeader
+    "a band of dwarves"
+    { 6000 12000 }
+    5
+  }
+   {
+    {
+      all = { 
+		8 "SEE_DWARF"
+		2 "RED_NAGA"
+		4 "DWARF_FIGHTER"
+	  }
+	  uniques = { "DWARF_BARON" }
+      count = { 12 16 }
+      baseLevelIncrease = { MELEE 6 }
+    }
+    KillLeader
+    "a dwarf assault"
+    { 10000 15000 }
+    6
+  }
+  {
+    {
+      all = {
+        8 "SEE_DWARF"
+        6 "DWARF_FIGHTER"
+		4 "RED_NAGA"
+      }
+      uniques = { "RED_DRAGON" "DWARF_BARON" }
+      count = { 16 20 }
+      baseLevelIncrease = { MELEE 8}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "an army of dwarves"
+    { 15000 30000 }
+    50
+  }
+    {
+    {
+      all = {
+        8 "SEE_DWARF"
+        6 "DWARF_FIGHTER"
+		4 "RED_NAGA"
+      }
+      uniques = { "RED_DRAGON" "DWARF_BARON" }
+      count = { 20 28 }
+      baseLevelIncrease = { MELEE 10}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "an entire dwarf mountainhome"
+    { 30000 100000 }
+    100
+  }
+
+
+### Elves
+ {
+    {
+      all = { 1 "ELF" }
+      count = { 1 }
+      baseLevelIncrease = { MELEE 4 }
+    }
+    KillLeader
+    "a shifty elf"
+    { 1 2500 }
+    1
+  }
+  {
+    {
+      all = { 1 "ELF_ARCHER" }
+      count = { 4 6 }
+      baseLevelIncrease = { MELEE 4 }
+    }
+    KillLeader
+    "an elf archer hitsquad"
+    { 4000 7500 }
+    4
+  }
+    {
+    {
+      all = { 
+		6 "SEE_ELF"
+		6 "ELF_ARCHER"
+		1 "ENT"
+	  }
+      count = { 10 14 }
+      baseLevelIncrease = { MELEE 5 SPELL 6 ARCHERY 2}
+    }
+    KillLeader
+    "an elf squadron"
+    { 6000 12000 }
+    5
+  }
+   {
+    {
+      all = { 
+		6 "SEE_ELF"
+		6 "ELF_ARCHER"
+		2 "ENT"
+		2 "UNICORN"
+	  }
+	  uniques = { "ELF_LORD" }
+      count = { 14 18 }
+      baseLevelIncrease = { MELEE 6 SPELL 12 ARCHERY 4  }
+    }
+    KillLeader
+    "an elf assault"
+    { 10000 15000 }
+    6
+  }
+  {
+    {
+      all = { 
+		8 "SEE_ELF"
+		8 "ELF_ARCHER"
+		3 "ENT"
+		2 "UNICORN"
+	  }
+	  uniques = { "GREEN_DRAGON" "ELF_LORD"}
+      count = { 18 24 }
+      baseLevelIncrease = { MELEE 8 SPELL 18 ARCHERY 6  }
+    }
+    KillLeader
+    "an elven army"
+    { 15000 30000 }
+    50
+  }
+    {
+    {
+      all = {
+		10 "SEE_ELF"
+		10 "ELF_ARCHER"
+		4 "ENT"
+		3 "UNICORN"
+      }
+	  uniques = { "GREEN_DRAGON" "ELF_LORD"}
+      count = { 24 30 }
+      baseLevelIncrease = { MELEE 10}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a whole elven forest"
+    { 30000 100000 }
+    100
+  }
+
+### Teutons
+   {
+    {
+      all = { 
+		12 "TEUTON"
+		2 "PRIEST"
+	  }
+	  uniques = { "TEUTON_BOSS" }
+      count = { 12 16 }
+      baseLevelIncrease = { MELEE 0 }
+    }
+    KillLeader
+    "a teuton conversion party"
+    { 10000 15000 }
+    6
+  }
+  {
+    {
+      all = {
+		12 "TEUTON"
+		2 "PRIEST"
+      }
+	  uniques = { "TEUTON_BOSS" }
+      count = { 16 20 }
+      baseLevelIncrease = { MELEE 5 SPELL 5}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a teuton army"
+    { 15000 30000 }
+    50
+  }
+}
+
+"evil"
+{
+ ### Dark Elves
+ ### Greenskin
+ ### Undead
+ ### Demons
+}
+
+"neutral"
+{
+### Lizardfolk
+
+  {
+    {
+      all = { 1 "KOBOLD" }
+      count = { 1 }
+      baseLevelIncrease = { MELEE 1 }
+    }
+    KillLeader
+    "an inquisitive kobold"
+    { 1 2500 }
+    1
+  }
+    {
+    {
+      all = { 4 "KOBOLD" }
+      count = { 3 5 }
+      baseLevelIncrease = { MELEE 1 }
+    }
+    KillLeader
+    "several unfortunate kobolds"
+    { 1500 3500 }
+    2
+  }
+  {
+    {
+      all = { 
+		5 "KOBOLD"
+		3 "LIZARDMAN"
+	  }
+      count = { 6 10 }
+      baseLevelIncrease = { MELEE 2 }
+    }
+    KillLeader
+    "a pack of lizards"
+    { 3000 5000 }
+    3
+  }
+    {
+    {
+      all = { 
+		6 "KOBOLD"
+		4 "LIZARDMAN"
+	  }
+      count = { 8 12 }
+      baseLevelIncrease = { MELEE 4 }
+    }
+    KillLeader
+    "a lizard raid"
+    { 4000 7500 }
+    4
+  }
+    {
+    {
+      all = { 
+		8 "SEE_KOBOLD"
+		5 "LIZARDMAN"
+		1 "YELLOW_NAGA"
+	  }
+      count = { 12 16 }
+      baseLevelIncrease = { MELEE 5 }
+    }
+    KillLeader
+    "a lizard warband"
+    { 6000 12000 }
+    5
+  }
+   {
+    {
+      all = { 
+		8 "SEE_KOBOLD"
+		6 "SEE_LIZARDMAN"
+		2 "YELLOW_NAGA"
+		1 "HYDRA"
+	  }
+      count = { 15 20 }
+      baseLevelIncrease = { MELEE 6 }
+    }
+    KillLeader
+    "a lizard warband"
+    { 10000 15000 }
+    6
+  }
+  {
+    {
+      all = {
+        10 "KOBOLD"
+        8 "SEE_LIZARDMAN"
+        3 "YELLOW_NAGA"
+		2 "HYDRA"
+      }
+      uniques = { "YELLOW_DRAGON" "SEE_LIZARDLORD" }
+      count = { 20 26 }
+      baseLevelIncrease = { MELEE 8}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a lizard army"
+    { 15000 30000 }
+    50
+  }
+    {
+    {
+      all = {
+        8 "KOBOLD"
+        8 "SEE_LIZARDMAN"
+        4 "YELLOW_NAGA"
+		2 "HYDRA"
+      }
+      uniques = { "YELLOW_DRAGON" "SEE_LIZARDLORD" }
+      count = { 26 32 }
+      baseLevelIncrease = { MELEE 10}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a throng of lizards"
+    { 30000 100000 }
+    100
+  }
+  
+  ### Snowfolk
+  ### Beasts
+  ### Rat People
+  ### Thieves
+  ### Wizard
+  ### Elementalist
+  ### Gnomes
+  ### Ants
+  ### Warriors
+  ### Solo
+  ### Special
+  
+}

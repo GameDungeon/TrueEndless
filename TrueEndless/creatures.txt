@@ -1,0 +1,84 @@
+  "SEE_ANGEL" inherit "ANGEL"
+  {
+    attr = {
+      DAMAGE 40
+      DEFENSE 32
+      SPELL_DAMAGE 30
+    }
+    inventory = {
+      { type = "Sword" prefixChance = 0.5 }
+      { type = Glyph ARMOR ItemAttrBonus DEFENSE 3 chance = 0.3 }
+      { type = Glyph WEAPON ItemAttrBonus DAMAGE 3 chance = 0.3 }
+    }
+  }
+   
+  "SEE_CHERUB" inherit "CHERUB"
+  {
+    attr = {
+      DEFENSE 10
+      RANGED_DAMAGE 30
+    }
+  }
+ 
+  "SEE_DWARF" inherit "DWARF"
+  {
+     inventory = {
+      { type = "Sword" }
+	  { "IronShield" }
+      { "ChainArmor"}
+      { type = "IronHelm" chance = 0.5 }
+      { type = "IronBoots" chance = 0.3 }
+      { type = "Torch" chance = 0.3 }
+    }
+  }
+  
+    "SEE_ELF" inherit "ELF"
+  {
+      attr = {
+      DAMAGE 20
+      DEFENSE 12
+	  SPELL_DAMAGE 6
+    }
+     inventory = {
+      { "ElvenSword"}
+      { "LeatherArmor"}
+      { type = "LeatherHelm" chance = 0.5 }
+      { type = "LeatherBoots" chance = 0.3 }
+    }
+  }
+ 
+  "SEE_KOBOLD" inherit "KOBOLD"
+  {
+    attr = {
+      DAMAGE 18
+      DEFENSE 16 
+    }
+    inventory = {
+      { "Spear"}
+	  { type = "IronBoots" chance = 0.5 }
+	  { type = "IronHelm" chance = 0.5 } 
+      { "GoldPiece" 4 7 }
+    }
+  }
+ 
+ "SEE_LIZARDMAN" inherit "LIZARDMAN"
+  {
+    inventory = {
+      { "Spear"}
+	  { "ChainArmor"}
+	  { type = "IronBoots" chance = 0.5 }
+	  { type = "IronHelm" chance = 0.5 } 
+      { "GoldPiece" 4 7 }
+    }
+  }
+  
+"SEE_LIZARDLORD" inherit "LIZARDLORD"
+  {
+    inventory = {
+      { "Spear"}
+	  { "ChainArmor"}
+	  { "IronBoots"}
+	  { "IronHelm"}
+      { "GoldPiece" 50 90 }
+    }
+  }
