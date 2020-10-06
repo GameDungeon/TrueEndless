@@ -128,12 +128,8 @@
   }
   
   
-  "SEE_ZOMBIE" inherit "ZOMBIE"
-    {
-      attr = {
-      DAMAGE 14
-      DEFENSE 17
-    }
+  "SEE_ZOMBIE" inherit "SWARMER_ZOMBIE"
+  {
      inventory = {
       { "Sword"}
 	  { "IronShield"}
@@ -188,6 +184,8 @@
       { "GoldPiece" 80 120 }
       { Scroll Escape }
       { type = Glyph WEAPON ItemAttrBonus SPELL_DAMAGE 4 chance = 0.3 }
+	  { type = Glyph WEAPON VictimEffect 0.3 Lasting BLEEDING chance = 0.3 }
+	  { type = Glyph ARMOR LastingEffect MAGIC_RESISTANCE chance = 0.3 }
     }
 	 spells = { "defense bonus" "rally" "deception" }
   }
@@ -221,9 +219,44 @@
   {
     inventory = {
       { "Spear"}
-	  { "ChainArmor"}
-	  { "IronBoots"}
-	  { "IronHelm"}
+	  { "ChainArmor" }
+	  { "IronBoots" }
+	  { "IronHelm" }
       { "GoldPiece" 50 90 }
+    }
+  }
+"SEE_YETI" inherit "YETI"
+  {
+    inventory = {
+      { "WarHammer" }
+	  { "ChainArmor" }
+	  { "IronBoots" }
+	  { "IronHelm" }
+    }
+  }
+  "SEE_WEREWOLF" inherit "WEREWOLF"
+  {
+    inventory = { 
+	  { "Knife" }
+	  { "ChainArmor" }
+	  { "IronBoots" }
+	  { "IronHelm" }
+    }
+  }
+    "SEE_WEREWOLF_ALPHA" inherit "WEREWOLF"
+  {
+    attr = {
+      DAMAGE 25
+      DEFENSE 12 
+    }
+    inventory = { 
+	  { type = "Knife" prefixChance = 1}
+	  { type = "ChainArmor" prefixChance = 1 }
+	  { "IronBoots" }
+	  { "IronHelm" }
+	  { "GoldPiece" 80 120 }
+      { type = Glyph ARMOR ItemAttrBonus DEFENSE 3 chance = 0.3 }
+      { type = Glyph WEAPON ItemAttrBonus DAMAGE 3 chance = 0.3 }
+      { type = Glyph WEAPON SpecialAttr DAMAGE 5 Name "at night" Night chance = 0.3 }
     }
   }
