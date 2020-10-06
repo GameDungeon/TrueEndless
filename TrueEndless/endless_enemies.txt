@@ -428,7 +428,7 @@
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
     }
     KillLeader
-    "an dark elf surge"
+    "a dark elf surge"
     { 15000 30000 }
     50
   }
@@ -940,7 +940,7 @@
       baseLevelIncrease = { MELEE 0 }
     }
     KillLeader
-    "a couple of warmthTRUEkers"
+    "a couple of warmthseekers"
     { 1500 3000 }
     1
   }
