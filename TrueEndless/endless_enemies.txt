@@ -1,7 +1,7 @@
 "basic" modify
 {}
 "lawful"
-{ 
+{
 ### Knights
 
   {
@@ -17,7 +17,7 @@
   }
   {
     {
-      all = { 
+      all = {
 		1 "PRIEST_PLAYER"
 		2 "CLERIC"
 	  }
@@ -31,7 +31,7 @@
   }
     {
     {
-      all = { 
+      all = {
 		4 "KNIGHT"
 		2 "ARCHER"
 		1 "PRIEST"
@@ -46,12 +46,12 @@
   }
    {
     {
-      all = { 
+      all = {
 		8 "KNIGHT"
 		4 "ARCHER"
 		2 "PRIEST"
-		1 "SEE_ANGEL"
-		1 "SEE_CHERUB"
+		1 "TRUE_ANGEL"
+		1 "TRUE_CHERUB"
 		1 "GALEAM"
 	  }
       count = { 12 16 }
@@ -68,8 +68,8 @@
 		8 "KNIGHT"
 		6 "ARCHER"
 		2 "PRIEST"
-		1 "SEE_ANGEL"
-		1 "SEE_CHERUB"
+		1 "TRUE_ANGEL"
+		1 "TRUE_CHERUB"
 		1 "GALEAM"
       }
       uniques = { "DUKE" }
@@ -88,8 +88,8 @@
 		10 "KNIGHT"
 		8 "ARCHER"
 		3 "PRIEST"
-		2 "SEE_ANGEL"
-		2 "SEE_CHERUB"
+		2 "TRUE_ANGEL"
+		2 "TRUE_CHERUB"
 		2 "GALEAM"
       }
       uniques = { "DUKE" }
@@ -108,8 +108,8 @@
 		10 "KNIGHT"
 		8 "ARCHER"
 		3 "PRIEST"
-		2 "SEE_ANGEL"
-		2 "SEE_CHERUB"
+		2 "TRUE_ANGEL"
+		2 "TRUE_CHERUB"
 		2 "GALEAM"
       }
       uniques = { "DUKE" }
@@ -122,11 +122,11 @@
     { 60000 100000 }
     100
   }
-  
+
 ### Dwarves
   {
     {
-      all = { 
+      all = {
 		1 "DWARF"
 	  }
       count = { 8 12 }
@@ -139,7 +139,7 @@
   }
     {
     {
-      all = { 
+      all = {
 		10 "DWARF"
 		1 "RED_NAGA"
 	  }
@@ -153,8 +153,8 @@
   }
    {
     {
-      all = { 
-		8 "SEE_DWARF"
+      all = {
+		8 "TRUE_DWARF"
 		2 "RED_NAGA"
 		4 "DWARF_FIGHTER"
 	  }
@@ -170,7 +170,7 @@
   {
     {
       all = {
-        8 "SEE_DWARF"
+        8 "TRUE_DWARF"
         6 "DWARF_FIGHTER"
 		4 "RED_NAGA"
       }
@@ -187,7 +187,7 @@
     {
     {
       all = {
-        8 "SEE_DWARF"
+        8 "TRUE_DWARF"
         6 "DWARF_FIGHTER"
 		4 "RED_NAGA"
       }
@@ -206,7 +206,7 @@
 ### Elves
  {
     {
-      all = { 1 "SEE_ELF" }
+      all = { 1 "TRUE_ELF" }
       count = { 1 }
       baseLevelIncrease = { MELEE 0 }
     }
@@ -239,8 +239,8 @@
   }
     {
     {
-      all = { 
-		6 "SEE_ELF"
+      all = {
+		6 "TRUE_ELF"
 		6 "ELF_ARCHER"
 		1 "ENT"
 	  }
@@ -254,8 +254,8 @@
   }
    {
     {
-      all = { 
-		6 "SEE_ELF"
+      all = {
+		6 "TRUE_ELF"
 		6 "ELF_ARCHER"
 		2 "ENT"
 		2 "UNICORN"
@@ -271,8 +271,8 @@
   }
   {
     {
-      all = { 
-		8 "SEE_ELF"
+      all = {
+		8 "TRUE_ELF"
 		8 "ELF_ARCHER"
 		3 "ENT"
 		2 "UNICORN"
@@ -289,7 +289,7 @@
   {
     {
       all = {
-		10 "SEE_ELF"
+		10 "TRUE_ELF"
 		10 "ELF_ARCHER"
 		4 "ENT"
 		3 "UNICORN"
@@ -307,7 +307,7 @@
   {
     {
       all = {
-		10 "SEE_ELF"
+		10 "TRUE_ELF"
 		10 "ELF_ARCHER"
 		4 "ENT"
 		3 "UNICORN"
@@ -337,7 +337,7 @@
   }
    {
     {
-      all = { 
+      all = {
 		12 "TEUTON"
 		2 "PRIEST"
 	  }
@@ -373,7 +373,7 @@
  ### Dark Elves
    {
     {
-      all = { 
+      all = {
 		1 "DARK_ELF_WARRIOR"
 	  }
       count = { 8 12 }
@@ -386,7 +386,7 @@
   }
     {
     {
-      all = { 
+      all = {
 		10 "DARK_ELF_WARRIOR"
 		1 "BLACK_NAGA"
 	  }
@@ -400,12 +400,12 @@
   }
    {
     {
-      all = { 
+      all = {
 		8 "DARK_ELF_WARRIOR"
 		2 "BLACK_NAGA"
-		4 "SEE_DARK_ELF"
+		4 "TRUE_DARK_ELF"
 	  }
-	  uniques = { "SEE_DARK_ELF_LORD" }
+	  uniques = { "TRUE_DARK_ELF_LORD" }
       count = { 12 16 }
       baseLevelIncrease = { MELEE 8 SPELL 4}
     }
@@ -418,11 +418,11 @@
     {
       all = {
         8 "DARK_ELF_WARRIOR"
-        6 "SEE_DARK_ELF"
+        6 "TRUE_DARK_ELF"
 		3 "BLACK_NAGA"
 		1 "SHELOB"
       }
-      uniques = { "BLACK_DRAGON" "SEE_DARK_ELF_LORD" }
+      uniques = { "BLACK_DRAGON" "TRUE_DARK_ELF_LORD" }
       count = { 16 20 }
       baseLevelIncrease = { MELEE 12 SPELL 12}
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
@@ -436,11 +436,11 @@
     {
       all = {
         10 "DARK_ELF_WARRIOR"
-        8 "SEE_DARK_ELF"
+        8 "TRUE_DARK_ELF"
 		4 "BLACK_NAGA"
 		2 "SHELOB"
       }
-      uniques = { "BLACK_DRAGON" "SEE_DARK_ELF_LORD" }
+      uniques = { "BLACK_DRAGON" "TRUE_DARK_ELF_LORD" }
       count = { 20 28 }
       baseLevelIncrease = { MELEE 16 SPELL 32}
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
@@ -454,11 +454,11 @@
     {
       all = {
         10 "DARK_ELF_WARRIOR"
-        8 "SEE_DARK_ELF"
+        8 "TRUE_DARK_ELF"
 		4 "BLACK_NAGA"
 		2 "SHELOB"
       }
-      uniques = { "BLACK_DRAGON" "SEE_DARK_ELF_LORD" }
+      uniques = { "BLACK_DRAGON" "TRUE_DARK_ELF_LORD" }
       count = { 20 28 }
       baseLevelIncrease = { MELEE 16 SPELL 64}
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
@@ -468,7 +468,7 @@
     { 60000 100000 }
     100
   }
-  
+
  ### Greenskin
 
   {
@@ -495,12 +495,12 @@
   }
   {
     {
-      all = { 
+      all = {
 		6 "ORC"
 		2 "ORC_HEALER"
 		1 "ORC_SHAMAN"
 		1 "ORC_MAGE"
-		
+
 	  }
       count = { 8 12 }
       baseLevelIncrease = { MELEE 8 SPELL 6}
@@ -512,7 +512,7 @@
   }
     {
     {
-      all = { 
+      all = {
 		6 "ORC"
 		2 "ORC_HEALER"
 		1 "ORC_SHAMAN"
@@ -530,15 +530,15 @@
   }
    {
     {
-      all = { 
-		6 "SEE_ORC"
+      all = {
+		6 "TRUE_ORC"
 		2 "ORC_HEALER"
 		1 "ORC_SHAMAN"
 		1 "ORC_MAGE"
-		4 "SEE_HARPY"
-		4 "SEE_OGRE"
+		4 "TRUE_HARPY"
+		4 "TRUE_OGRE"
 	  }
-	  uniques = { "SEE_OGRE_WARLORD" }
+	  uniques = { "TRUE_OGRE_WARLORD" }
       count = { 16 20 }
       baseLevelIncrease = { MELEE 16 SPELL 12 ARCHERY 12 }
     }
@@ -550,14 +550,14 @@
   {
     {
       all = {
-		6 "SEE_ORC"
+		6 "TRUE_ORC"
 		2 "ORC_HEALER"
 		1 "ORC_SHAMAN"
 		1 "ORC_MAGE"
-		4 "SEE_HARPY"
-		4 "SEE_OGRE"
+		4 "TRUE_HARPY"
+		4 "TRUE_OGRE"
 	  }
-	  uniques = { "SEE_OGRE_WARLORD" }
+	  uniques = { "TRUE_OGRE_WARLORD" }
       count = { 20 26 }
       baseLevelIncrease = { MELEE 20 SPELL 18 ARCHERY 18 }
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
@@ -570,14 +570,14 @@
   {
     {
       all = {
-		6 "SEE_ORC"
+		6 "TRUE_ORC"
 		2 "ORC_HEALER"
 		1 "ORC_SHAMAN"
 		1 "ORC_MAGE"
-		4 "SEE_HARPY"
-		4 "SEE_OGRE"
+		4 "TRUE_HARPY"
+		4 "TRUE_OGRE"
 	  }
-	  uniques = { "SEE_OGRE_WARLORD" }
+	  uniques = { "TRUE_OGRE_WARLORD" }
       count = { 26 32 }
       baseLevelIncrease = { MELEE 24 SPELL 36 ARCHERY 36 }
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
@@ -590,14 +590,14 @@
  {
     {
       all = {
-		6 "SEE_ORC"
+		6 "TRUE_ORC"
 		2 "ORC_HEALER"
 		1 "ORC_SHAMAN"
 		1 "ORC_MAGE"
-		4 "SEE_HARPY"
-		4 "SEE_OGRE"
+		4 "TRUE_HARPY"
+		4 "TRUE_OGRE"
 	  }
-	  uniques = { "SEE_OGRE_WARLORD" }
+	  uniques = { "TRUE_OGRE_WARLORD" }
       count = { 26 32 }
       baseLevelIncrease = { MELEE 24 SPELL 72 ARCHERY 72 }
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
@@ -622,12 +622,12 @@
   }
   {
     {
-      all = { 
-		10 "SEE_ZOMBIE"
-		8 "SEE_SKELETON"
-		4 "SEE_VAMPIRE"
+      all = {
+		10 "TRUE_ZOMBIE"
+		8 "TRUE_SKELETON"
+		4 "TRUE_VAMPIRE"
 	  }
-	  uniques = { "SEE_VAMPIRE_LORD" }
+	  uniques = { "TRUE_VAMPIRE_LORD" }
       count = { 20 24 }
       baseLevelIncrease = { MELEE 0 }
     }
@@ -638,12 +638,12 @@
   }
   {
     {
-      all = { 
-		10 "SEE_ZOMBIE"
-		8 "SEE_SKELETON"
-		4 "SEE_VAMPIRE"
+      all = {
+		10 "TRUE_ZOMBIE"
+		8 "TRUE_SKELETON"
+		4 "TRUE_VAMPIRE"
 	  }
-	  uniques = { "SEE_VAMPIRE_LORD" }
+	  uniques = { "TRUE_VAMPIRE_LORD" }
       count = { 20 24 }
       baseLevelIncrease = { MELEE 0 }
     }
@@ -655,11 +655,11 @@
   {
     {
       all = {
-		10 "SEE_ZOMBIE"
-		8 "SEE_SKELETON"
-		4 "SEE_VAMPIRE"
+		10 "TRUE_ZOMBIE"
+		8 "TRUE_SKELETON"
+		4 "TRUE_VAMPIRE"
       }
-	  uniques = { "SEE_VAMPIRE_LORD" }
+	  uniques = { "TRUE_VAMPIRE_LORD" }
       count = { 24 28 }
       baseLevelIncrease = { MELEE 5 SPELL 8 ARCHERY 8}
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
@@ -672,11 +672,11 @@
   {
     {
       all = {
-		10 "SEE_ZOMBIE"
-		8 "SEE_SKELETON"
-		4 "SEE_VAMPIRE"
+		10 "TRUE_ZOMBIE"
+		8 "TRUE_SKELETON"
+		4 "TRUE_VAMPIRE"
       }
-	  uniques = { "SEE_VAMPIRE_LORD" }
+	  uniques = { "TRUE_VAMPIRE_LORD" }
       count = { 24 28 }
       baseLevelIncrease = { MELEE 5 SPELL 15 ARCHERY 15}
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
@@ -722,7 +722,7 @@
   }
   {
     {
-      all = { 
+      all = {
 		6 "DEMON_DWELLER"
 		2 "ICE_DEMON"
 		2 "DEVIL_VAULT"
@@ -737,7 +737,7 @@
   }
    {
     {
-      all = { 
+      all = {
 		8 "DEVIL_VAULT"
 		4 "ICE_DEMON"
 		2 "SUCCUBUS"
@@ -834,7 +834,7 @@
   }
     {
     {
-      all = { 
+      all = {
 		6 "KOBOLD"
 		4 "LIZARDMAN"
 	  }
@@ -848,9 +848,9 @@
   }
     {
     {
-      all = { 
-		8 "SEE_KOBOLD"
-		5 "SEE_LIZARDMAN"
+      all = {
+		8 "TRUE_KOBOLD"
+		5 "TRUE_LIZARDMAN"
 		1 "YELLOW_NAGA"
 	  }
       count = { 12 16 }
@@ -863,9 +863,9 @@
   }
    {
     {
-      all = { 
-		8 "SEE_KOBOLD"
-		6 "SEE_LIZARDMAN"
+      all = {
+		8 "TRUE_KOBOLD"
+		6 "TRUE_LIZARDMAN"
 		2 "YELLOW_NAGA"
 		1 "HYDRA"
 	  }
@@ -881,11 +881,11 @@
     {
       all = {
         10 "KOBOLD"
-        8 "SEE_LIZARDMAN"
+        8 "TRUE_LIZARDMAN"
         3 "YELLOW_NAGA"
 		2 "HYDRA"
       }
-      uniques = { "YELLOW_DRAGON" "SEE_LIZARDLORD" }
+      uniques = { "YELLOW_DRAGON" "TRUE_LIZARDLORD" }
       count = { 20 26 }
       baseLevelIncrease = { MELEE 8}
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
@@ -899,11 +899,11 @@
     {
       all = {
         8 "KOBOLD"
-        8 "SEE_LIZARDMAN"
+        8 "TRUE_LIZARDMAN"
         4 "YELLOW_NAGA"
 		2 "HYDRA"
       }
-      uniques = { "YELLOW_DRAGON" "SEE_LIZARDLORD" }
+      uniques = { "YELLOW_DRAGON" "TRUE_LIZARDLORD" }
       count = { 26 32 }
       baseLevelIncrease = { MELEE 10}
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
@@ -913,12 +913,12 @@
     { 30000 100000 }
     100
   }
-  
+
   ### Snowfolk
- 
+
   {
     {
-      all = { 
+      all = {
 	   1 "ESKIMO"
 	   1 "HUSKY"
 	   }
@@ -932,7 +932,7 @@
   }
     {
     {
-      all = { 
+      all = {
 	   2 "ESKIMO"
 	   4 "HUSKY"
 	   }
@@ -940,7 +940,7 @@
       baseLevelIncrease = { MELEE 0 }
     }
     KillLeader
-    "a couple of warmthseekers"
+    "a couple of warmthTRUEkers"
     { 1500 3000 }
     1
   }
@@ -979,10 +979,10 @@
   }
    {
     {
-      all = { 
+      all = {
 		5 "POLAR_BEAR"
 		6 "WHITE_NAGA"
-		1 "SEE_YETI"
+		1 "TRUE_YETI"
 	  }
       count = { 10 14 }
       baseLevelIncrease = { MELEE 5 }
@@ -997,7 +997,7 @@
       all = {
 		5 "POLAR_BEAR"
 		8 "WHITE_NAGA"
-		3 "SEE_YETI"
+		3 "TRUE_YETI"
       }
       uniques = { "WHITE_DRAGON" }
       count = { 14 18 }
@@ -1014,7 +1014,7 @@
       all = {
 		7 "POLAR_BEAR"
 		10 "WHITE_NAGA"
-		5 "SEE_YETI"
+		5 "TRUE_YETI"
       }
       uniques = { "WHITE_DRAGON" }
       count = { 18 24 }
@@ -1025,10 +1025,10 @@
     "a white host"
     { 30000 100000 }
     100
-  } 
- 
+  }
+
   ### Beasts
-  
+
   {
     {
       all = { 1 "RAVEN" }
@@ -1064,9 +1064,9 @@
   }
   {
     {
-      all = { 
+      all = {
 	    4 "WEREWOLF"
-		1 "SEE_WEREWOLF"
+		1 "TRUE_WEREWOLF"
 		}
       count = { 4 6 }
       baseLevelIncrease = { MELEE 4 }
@@ -1078,10 +1078,10 @@
   }
     {
     {
-      all = { 
+      all = {
 	    8 "WOLF"
 	    4 "WEREWOLF"
-		2 "SEE_WEREWOLF"
+		2 "TRUE_WEREWOLF"
 	  }
       count = { 12 16 }
       baseLevelIncrease = { MELEE 6 }
@@ -1093,12 +1093,12 @@
   }
    {
     {
-      all = { 
+      all = {
 	    12 "WOLF"
-		10 "SEE_WEREWOLF"
+		10 "TRUE_WEREWOLF"
 	  }
       count = { 20 24 }
-	  uniques = { "SEE_WEREWOLF_ALPHA" }
+	  uniques = { "TRUE_WEREWOLF_ALPHA" }
       baseLevelIncrease = { MELEE 8 }
     }
     KillLeader
@@ -1108,15 +1108,16 @@
   }
 
   ### Rat People
-  
+
    {
     {
       all = { 1 "RAT" }
-      count = { 1 }
+      uniques = {1 "BLACK_RAT"}
+      count = { 8 10 }
       baseLevelIncrease = { MELEE 0 }
     }
     KillLeader
-    "a suspicious rat"
+    "rat infestation"
     { 1 2500 }
     1
   }
@@ -1144,7 +1145,7 @@
   }
   {
     {
-      all = { 
+      all = {
 	    1 "RAT_SOLDIER"
 		}
       count = { 16 20 }
@@ -1156,13 +1157,13 @@
     { 4500 5000 }
     1
   }
-  
+
   ### Thieves
-  
+
    {
     {
-      all = { 
-	  1 "NOMAD" 
+      all = {
+	  1 "NOMAD"
 	  1 "CAMEL"
 	  }
       count = { 2 }
@@ -1186,7 +1187,7 @@
   }
   {
     {
-      all = { 
+      all = {
 	    1 "THIEF"
 		}
       count = { 4 6 }
@@ -1199,7 +1200,7 @@
   }
     {
     {
-      all = { 
+      all = {
 	    11 "THIEF"
 		1 "SORCERER"
 	  }
@@ -1213,7 +1214,7 @@
   }
    {
     {
-      all = { 
+      all = {
 	    14 "THIEF"
 		4 "SORCERER"
 	  }
@@ -1226,9 +1227,9 @@
     { 10500 15000 }
     1
   }
-  
+
   ### Wizard
-  
+
   {
     {
       all = { 1 "CLAY_GOLEM" }
@@ -1242,7 +1243,7 @@
   }
   {
     {
-      all = { 
+      all = {
 	    9 "STONE_GOLEM"
 		1 "IRON_GOLEM"
 		}
@@ -1254,7 +1255,7 @@
     { 4500 6000 }
     1
   }
-  { 
+  {
     {
 	all = {	1 "ADA_GOLEM" }
     uniques = { "WHITE_WIZARD" }
@@ -1270,9 +1271,9 @@
     { 6000 12000 }
     1
   }
-  
+
   ### Elementalist
-  
+
   {
     {
       all = { 1 "AIR_ELEMENTAL" }
@@ -1286,7 +1287,7 @@
   }
   {
     {
-      all = { 
+      all = {
         1 "WATER_ELEMENTAL"
         1 "FIRE_ELEMENTAL"
         1 "EARTH_ELEMENTAL"
@@ -1300,10 +1301,10 @@
     { 4500 6000 }
     1
   }
-  { 
-    { 
+  {
+    {
 	all = { }
-    count = { 1 }	
+    count = { 1 }
     uniques = { "ELEMENTALIST" }
 	baseLevelIncrease = { MELEE 5 SPELL 10 }
 	}
@@ -1320,8 +1321,8 @@
     "an elementalist and her gang"
     { 6000 12000 }
     1
-  } 
- 
+  }
+
   ### Gnomes
     {
     {
@@ -1345,9 +1346,9 @@
     { 6000 12000 }
     1
   }
-    
+
   ### Ants
-  
+
    {
     {
       all = { 1 "ANT_WORKER" }
@@ -1387,13 +1388,13 @@
     "an ant queen and her spawn"
     { 6000 12000 }
     1
-  } 
-  
+  }
+
   ### Warriors
-  
+
   {
     {
-      all = { 
+      all = {
 	   1 "WARRIOR"
 	   }
       count = { 1 }
@@ -1406,8 +1407,8 @@
   }
   {
     {
-      all = { 
-	  3 "WARRIOR" 
+      all = {
+	  3 "WARRIOR"
 	  1 "CAVE_BEAR"
 	  }
       count = { 6 10 }
@@ -1420,8 +1421,8 @@
   }
   {
     {
-      all = { 
-	  3 "WARRIOR" 
+      all = {
+	  3 "WARRIOR"
 	  1 "CAVE_BEAR"
 	  }
       count = { 12 16 }
@@ -1434,8 +1435,8 @@
   }
    {
     {
-      all = { 
-	  3 "WARRIOR" 
+      all = {
+	  3 "WARRIOR"
 	  1 "CAVE_BEAR"
 	  }
 	  uniques = { "SHAMAN" }
@@ -1447,10 +1448,10 @@
     { 10500 30000 }
     4
   }
-  
-  
+
+
   ### Solo
-  
+
   {
     {
       all = { 1 "BANDIT" }
@@ -1486,11 +1487,11 @@
   }
   {
     {
-      all = { 
+      all = {
 		1 "BLACK_NAGA"
 		1 "RED_NAGA"
 		1 "YELLOW_NAGA"
-		1 "WHITE_NAGA"	
+		1 "WHITE_NAGA"
 	  }
       count = { 1 }
       baseLevelIncrease = { MELEE 4 }
@@ -1579,12 +1580,12 @@
   }
   {
     {
-      all = { 
-	  1 "BLACK_DRAGON" 
-	  1 "WHITE_DRAGON" 
-	  1 "RED_DRAGON" 
+      all = {
+	  1 "BLACK_DRAGON"
+	  1 "WHITE_DRAGON"
+	  1 "RED_DRAGON"
 	  1 "GREEN_DRAGON"
-	  1 "YELLOW_DRAGON" 
+	  1 "YELLOW_DRAGON"
 	  }
       count = { 1 }
       baseLevelIncrease = { MELEE -5 }
@@ -1673,12 +1674,12 @@
   }
   {
     {
-      all = { 
-	  1 "BLACK_DRAGON" 
-	  1 "WHITE_DRAGON" 
-	  1 "RED_DRAGON" 
+      all = {
+	  1 "BLACK_DRAGON"
+	  1 "WHITE_DRAGON"
+	  1 "RED_DRAGON"
 	  1 "GREEN_DRAGON"
-	  1 "YELLOW_DRAGON" 
+	  1 "YELLOW_DRAGON"
 	  }
       count = { 1 }
       baseLevelIncrease = { MELEE 0 }
@@ -1710,9 +1711,9 @@
     { 60000 100000 }
     2
   }
-  
+
   ### Special
-  
+
   {
     {
       all = { 1 "BANDIT" }
@@ -1746,27 +1747,27 @@
     { 3000 100000 }
     1
   }
-  
+
 }
   ### ENDGAME
-  
+
  "endgame"
 {
   {
     {
-      all = { 
-	  1 "BLACK_NAGA" 
-	  1 "WHITE_NAGA" 
-	  1 "RED_NAGA" 
+      all = {
+	  1 "BLACK_NAGA"
+	  1 "WHITE_NAGA"
+	  1 "RED_NAGA"
 	  1 "UNICORN"
-	  1 "YELLOW_NAGA" 
+	  1 "YELLOW_NAGA"
 	  }
       count = { 24 32 }
-	  uniques = { "BLACK_DRAGON" 
-				  "WHITE_DRAGON" 
-				  "RED_DRAGON" 
+	  uniques = { "BLACK_DRAGON"
+				  "WHITE_DRAGON"
+				  "RED_DRAGON"
 				  "GREEN_DRAGON"
-				  "YELLOW_DRAGON" 
+				  "YELLOW_DRAGON"
 				}
       baseLevelIncrease = { MELEE 25 SPELL 25 }
     }

@@ -1,4 +1,4 @@
-  "SEE_ANGEL" inherit "ANGEL"
+  "TRUE_ANGEL" inherit "ANGEL"
   {
     attr = {
       DAMAGE 40
@@ -11,16 +11,16 @@
       { type = Glyph WEAPON ItemAttrBonus DAMAGE 3 chance = 0.3 }
     }
   }
-   
-  "SEE_CHERUB" inherit "CHERUB"
+
+  "TRUE_CHERUB" inherit "CHERUB"
   {
     attr = {
       DEFENSE 10
       RANGED_DAMAGE 30
     }
   }
- 
-  "SEE_DWARF" inherit "DWARF"
+
+  "TRUE_DWARF" inherit "DWARF"
   {
      inventory = {
       { type = "Sword" }
@@ -31,8 +31,8 @@
       { type = "Torch" chance = 0.3 }
     }
   }
-  
-    "SEE_ELF" inherit "ELF"
+
+    "TRUE_ELF" inherit "ELF"
   {
       attr = {
       DAMAGE 20
@@ -46,8 +46,8 @@
       { type = "LeatherBoots" chance = 0.3 }
     }
   }
-  
-      "SEE_DARK_ELF" inherit "DARK_ELF"
+
+      "TRUE_DARK_ELF" inherit "DARK_ELF"
   {
       attr = {
       DAMAGE 20
@@ -62,13 +62,13 @@
       { type = "LeatherBoots" chance = 0.3 }
     }
   }
-  
-	"SEE_DARK_ELF_LORD" inherit "DARK_ELF_LORD"
+
+	"TRUE_DARK_ELF_LORD" inherit "DARK_ELF_LORD"
  {
     attr = {
       DAMAGE 22
       DEFENSE 14
-      SPELL_DAMAGE 36 
+      SPELL_DAMAGE 36
     }
     spells = { "advanced healing" "haste" "defense bonus" "rally" "directed blast" "expert magic missile"}
     inventory = {
@@ -86,7 +86,7 @@
       { type = Glyph WEAPON ItemAttrBonus SPELL_DAMAGE 4 chance = 0.3 }
     }
  }
-  "SEE_ORC" inherit "ORC"
+  "TRUE_ORC" inherit "ORC"
   {
       inventory = {
       { "Sword"}
@@ -95,7 +95,7 @@
       { type = "IronBoots" chance = 0.3 }
     }
   }
-  "SEE_HARPY" inherit "HARPY"
+  "TRUE_HARPY" inherit "HARPY"
   {
       inventory = {
       { "Bow"}
@@ -104,7 +104,7 @@
       { type = "IronBoots" chance = 0.3 }
     }
   }
-  "SEE_OGRE" inherit "OGRE"
+  "TRUE_OGRE" inherit "OGRE"
   {
       inventory = {
       { "HeavyClub"}
@@ -113,7 +113,7 @@
       { type = "IronBoots" chance = 0.3 }
     }
   }
-    "SEE_OGRE_WARLORD" inherit "SEE_OGRE"
+    "TRUE_OGRE_WARLORD" inherit "TRUE_OGRE"
   {
       inventory = {
       { type = "WarHammer" prefixChance = 1 }
@@ -126,9 +126,9 @@
       { type = Glyph WEAPON JoinPrefixes { LastingEffect BAD_BREATH VictimEffect 0.2 Lasting PANIC } chance = 0.3 }
     }
   }
-  
-  
-  "SEE_ZOMBIE" inherit "SWARMER_ZOMBIE"
+
+
+  "TRUE_ZOMBIE" inherit "SWARMER_ZOMBIE"
   {
      inventory = {
       { "Sword"}
@@ -140,7 +140,7 @@
 	  { "GoldPiece" 2 6 }
     }
   }
-  "SEE_SKELETON" inherit "SKELETON"
+  "TRUE_SKELETON" inherit "SKELETON"
     {
       attr = {
       DAMAGE 24
@@ -157,7 +157,7 @@
 	  { "GoldPiece" 2 6 }
     }
   }
-  "SEE_VAMPIRE" inherit "VAMPIRE"
+  "TRUE_VAMPIRE" inherit "VAMPIRE"
     {
       attr = {
       DAMAGE 24
@@ -169,7 +169,7 @@
       { "IronStaff"}
     }
   }
-  "SEE_VAMPIRE_LORD" inherit "VAMPIRE_LORD"
+  "TRUE_VAMPIRE_LORD" inherit "VAMPIRE_LORD"
     {
       attr = {
       DAMAGE 24
@@ -189,33 +189,33 @@
     }
 	 spells = { "defense bonus" "rally" "deception" }
   }
- 
-  "SEE_KOBOLD" inherit "KOBOLD"
+
+  "TRUE_KOBOLD" inherit "KOBOLD"
   {
     attr = {
       DAMAGE 18
-      DEFENSE 16 
+      DEFENSE 16
     }
     inventory = {
       { "Spear"}
 	  { type = "IronBoots" chance = 0.5 }
-	  { type = "IronHelm" chance = 0.5 } 
+	  { type = "IronHelm" chance = 0.5 }
       { "GoldPiece" 4 7 }
     }
   }
- 
- "SEE_LIZARDMAN" inherit "LIZARDMAN"
+
+ "TRUE_LIZARDMAN" inherit "LIZARDMAN"
   {
     inventory = {
       { "Spear"}
 	  { "ChainArmor"}
 	  { type = "IronBoots" chance = 0.5 }
-	  { type = "IronHelm" chance = 0.5 } 
+	  { type = "IronHelm" chance = 0.5 }
       { "GoldPiece" 4 7 }
     }
   }
-  
-"SEE_LIZARDLORD" inherit "LIZARDLORD"
+
+"TRUE_LIZARDLORD" inherit "LIZARDLORD"
   {
     inventory = {
       { "Spear"}
@@ -225,7 +225,7 @@
       { "GoldPiece" 50 90 }
     }
   }
-"SEE_YETI" inherit "YETI"
+"TRUE_YETI" inherit "YETI"
   {
     inventory = {
       { "WarHammer" }
@@ -234,22 +234,22 @@
 	  { "IronHelm" }
     }
   }
-  "SEE_WEREWOLF" inherit "WEREWOLF"
+  "TRUE_WEREWOLF" inherit "WEREWOLF"
   {
-    inventory = { 
+    inventory = {
 	  { "Knife" }
 	  { "ChainArmor" }
 	  { "IronBoots" }
 	  { "IronHelm" }
     }
   }
-    "SEE_WEREWOLF_ALPHA" inherit "WEREWOLF"
+    "TRUE_WEREWOLF_ALPHA" inherit "WEREWOLF"
   {
     attr = {
       DAMAGE 25
-      DEFENSE 12 
+      DEFENSE 12
     }
-    inventory = { 
+    inventory = {
 	  { type = "Knife" prefixChance = 1}
 	  { type = "ChainArmor" prefixChance = 1 }
 	  { "IronBoots" }
