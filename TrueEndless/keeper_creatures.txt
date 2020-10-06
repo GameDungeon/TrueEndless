@@ -2,18 +2,22 @@
 # They also get ordered alphabetically, hence the 1, 2, ... in the front.
 
 "1_dark_mage" modify 
-{
-  endlessEnemyGroups = { "lawful" "neutral" }
-}
+	{
+	endlessEnemyGroups = { "lawful" "neutral" "endgame" }
+	}
+
+"2_dark_knight" modify
+	{
+	endlessEnemyGroups = { "lawful" "neutral" "endgame" }
+	}
 
 "3_white_knight" modify
-{
-  endlessEnemyGroups = { "evil" "neutral" }
-}
+	{
+	endlessEnemyGroups = { "lawful" "neutral" "endgame" }
+	}
 "4_gnomes" modify
-{
-  endlessEnemyGroups = { "evil" "neutral" }
-}
-
+	{
+	endlessEnemyGroups = { "lawful" "neutral" "endgame" }
+	}
 }
 
