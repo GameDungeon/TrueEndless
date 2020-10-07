@@ -1112,7 +1112,7 @@
    {
     {
       all = { 1 "RAT" }
-      uniques = {1 "BLACK_RAT"}
+      uniques = { "BLACK_RAT"}
       count = { 8 10 }
       baseLevelIncrease = { MELEE 0 }
     }
@@ -1738,13 +1738,14 @@
   }
   {
     {
-      all = { 1 "ARTISAN_LEGEN" }
-      count = { 1 }
+      all = { 1 "DWARF_FIGHTER" }
+      count = { 4 6 }
+	  uniques = { "DWARF_BLACKSMITH" }
       baseLevelIncrease = { MELEE 0 }
     }
     KillLeader
-    "a foreign artisan"
-    { 3000 100000 }
+    "a mining expedition"
+    { 15000 100000 }
     1
   }
 
