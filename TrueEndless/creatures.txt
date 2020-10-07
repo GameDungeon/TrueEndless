@@ -20,6 +20,28 @@
     }
   }
 
+  "TRUE_GALEAM" inherit "GALEAM"
+  {
+      spells = { "bolster" "rally" "heal spirit" "heal spirit group"}
+  }
+  
+  "TRUE_EMISSARY" inherit "PRIEST_PLAYER"
+  {
+    viewId = { "priest" }
+    attr = {
+      DAMAGE 60
+      DEFENSE 50
+      SPELL_DAMAGE 65
+    }
+    maxLevelIncrease = {
+      SPELL 5
+    }
+    name = {
+      name = "Divine Emissary"
+      fullTitle = true
+    }
+  }
+  
   "TRUE_DWARF" inherit "DWARF"
   {
      inventory = {
@@ -47,7 +69,7 @@
     }
   }
 
-      "TRUE_DARK_ELF" inherit "DARK_ELF"
+    "TRUE_DARK_ELF" inherit "DARK_ELF"
   {
       attr = {
       DAMAGE 20
@@ -104,6 +126,28 @@
       { type = "IronBoots" chance = 0.3 }
     }
   }
+  "TRUE_HARPY_MATRIARCH" inherit "HARPY"
+  {
+    attr = {
+      DAMAGE 18
+      DEFENSE 21
+      RANGED_DAMAGE 22 
+    }
+      inventory = {
+      { "Bow"}
+      { type = "ChainArmor" prefixChance = 1 }
+      { "IronBoots"}
+      { "IronHelm"}
+	  { "IronGloves"}
+      { "GoldPiece" 80 120 }
+      { type = Glyph ARMOR LastingEffect SPEED chance = 0.3 }
+      { type = Glyph WEAPON ItemAttrBonus DAMAGE 4 = 0.3 }
+    }
+    name = {
+      name = "harpy matriarch"
+      firstNameGen = "ORC"
+    }
+  }
   "TRUE_OGRE" inherit "OGRE"
   {
       inventory = {
@@ -124,6 +168,10 @@
       { "GoldPiece" 80 120 }
       { type = Glyph ARMOR ItemAttrBonus DEFENSE 4 chance = 0.3 }
       { type = Glyph WEAPON JoinPrefixes { LastingEffect BAD_BREATH VictimEffect 0.2 Lasting PANIC } chance = 0.3 }
+    }
+    name = {
+      name = "ogre warlord"
+      firstNameGen = "ORC"
     }
   }
 
@@ -258,5 +306,9 @@
       { type = Glyph ARMOR ItemAttrBonus DEFENSE 3 chance = 0.3 }
       { type = Glyph WEAPON ItemAttrBonus DAMAGE 3 chance = 0.3 }
       { type = Glyph WEAPON SpecialAttr DAMAGE 5 Name "at night" Night chance = 0.3 }
+    }
+	name = {
+      name = "werewolf alpha"
+      firstNameGen = "DOG"
     }
   }
