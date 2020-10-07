@@ -40,7 +40,7 @@
       baseLevelIncrease = { MELEE -10 SPELL -10 ARCHERY -10 }
     }
     KillLeader
-    "a knight war party"
+    "a knight incursion"
     { 6000 12000 }
     1
   }
@@ -239,9 +239,9 @@
   }
     {
     {
-      all = {
-		6 "TRUE_ELF"
+      all = {		
 		6 "ELF_ARCHER"
+		6 "TRUE_ELF"
 		1 "ENT"
 	  }
       count = { 10 14 }
@@ -513,12 +513,12 @@
     {
     {
       all = {
+		2 "OGRE"
 		6 "ORC"
 		2 "ORC_HEALER"
 		1 "ORC_SHAMAN"
 		1 "ORC_MAGE"
 		2 "HARPY"
-		2 "OGRE"
 	  }
       count = { 12 16 }
       baseLevelIncrease = { MELEE 12 SPELL 8 ARCHERY 8 }
@@ -835,8 +835,8 @@
     {
     {
       all = {
+	  	4 "LIZARDMAN"
 		6 "KOBOLD"
-		4 "LIZARDMAN"
 	  }
       count = { 8 12 }
       baseLevelIncrease = { MELEE 4 }
@@ -849,8 +849,8 @@
     {
     {
       all = {
-		8 "TRUE_KOBOLD"
 		5 "TRUE_LIZARDMAN"
+		8 "TRUE_KOBOLD"
 		1 "YELLOW_NAGA"
 	  }
       count = { 12 16 }
@@ -864,10 +864,10 @@
    {
     {
       all = {
+		1 "HYDRA"
 		8 "TRUE_KOBOLD"
 		6 "TRUE_LIZARDMAN"
 		2 "YELLOW_NAGA"
-		1 "HYDRA"
 	  }
       count = { 16 20 }
       baseLevelIncrease = { MELEE 6 }
@@ -980,9 +980,9 @@
    {
     {
       all = {
+		1 "TRUE_YETI"
 		5 "POLAR_BEAR"
 		6 "WHITE_NAGA"
-		1 "TRUE_YETI"
 	  }
       count = { 10 14 }
       baseLevelIncrease = { MELEE 5 }
@@ -1079,9 +1079,9 @@
     {
     {
       all = {
+	  	2 "TRUE_WEREWOLF"
 	    8 "WOLF"
 	    4 "WEREWOLF"
-		2 "TRUE_WEREWOLF"
 	  }
       count = { 12 16 }
       baseLevelIncrease = { MELEE 6 }
@@ -1112,12 +1112,12 @@
    {
     {
       all = { 1 "RAT" }
-      uniques = { "BLACK_RAT"}
+      uniques = { "BLACK_RAT" }
       count = { 8 10 }
       baseLevelIncrease = { MELEE 0 }
     }
     KillLeader
-    "rat infestation"
+    "a rat infestation"
     { 1 2500 }
     1
   }
@@ -1202,8 +1202,8 @@
     {
       all = {
 	    11 "THIEF"
-		1 "SORCERER"
 	  }
+	  uniques = { "SORCERER" }
       count = { 10 14 }
       baseLevelIncrease = { MELEE 2 }
     }
@@ -1288,8 +1288,8 @@
   {
     {
       all = {
-        1 "WATER_ELEMENTAL"
         1 "FIRE_ELEMENTAL"
+		1 "WATER_ELEMENTAL"
         1 "EARTH_ELEMENTAL"
         1 "AIR_ELEMENTAL"
 		}
@@ -1363,8 +1363,8 @@
   {
     {
       all = { 1 "ANT_SOLDIER" }
-      count = { 12 16 }
-      baseLevelIncrease = { MELEE 4 }
+      count = { 6 10 }
+      baseLevelIncrease = { MELEE -2 }
     }
     KillLeader
     "ant soldiers"
@@ -1383,7 +1383,7 @@
         1 "ANT_SOLDIER"
       }
       count = { 12 }
-      baseLevelIncrease = { MELEE 6 }
+      baseLevelIncrease = { MELEE 4 }
     }
     "an ant queen and her spawn"
     { 6000 12000 }
@@ -1412,7 +1412,7 @@
 	  1 "CAVE_BEAR"
 	  }
       count = { 6 10 }
-      baseLevelIncrease = { MELEE 2 }
+      baseLevelIncrease = { MELEE 4 }
     }
     KillLeader
     "a warrior raid"
@@ -1426,7 +1426,7 @@
 	  1 "CAVE_BEAR"
 	  }
       count = { 12 16 }
-      baseLevelIncrease = { MELEE 4 }
+      baseLevelIncrease = { MELEE 8 }
     }
     KillLeader
     "a band of warriors"
@@ -1441,7 +1441,7 @@
 	  }
 	  uniques = { "SHAMAN" }
       count = { 18 24 }
-      baseLevelIncrease = { MELEE 8 SPELL 8}
+      baseLevelIncrease = { MELEE 10 SPELL 12}
     }
     KillLeader
     "a warrior mob"
@@ -1510,7 +1510,7 @@
     KillLeader
     "an angry cyclops"
     { 6000 15000 }
-    2
+    1
   }
   {
     {
@@ -1521,7 +1521,7 @@
     KillLeader
     "a strange soft monster"
     { 6000 15000 }
-    2
+    1
   }
   {
     {
@@ -1532,7 +1532,7 @@
     KillLeader
     "a monster killer"
     { 6000 15000 }
-    2
+    1
   }
   {
     {
@@ -1543,7 +1543,7 @@
     KillLeader
     "a ravaging hydra"
     { 6000 15000 }
-    2
+    1
   }
   {
     {
