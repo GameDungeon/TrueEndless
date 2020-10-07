@@ -141,7 +141,7 @@
 	  { "IronGloves"}
       { "GoldPiece" 80 120 }
       { type = Glyph ARMOR LastingEffect SPEED chance = 0.3 }
-      { type = Glyph WEAPON ItemAttrBonus DAMAGE 4 = 0.3 }
+      { type = Glyph WEAPON ItemAttrBonus DAMAGE 4 chance = 0.3 }
     }
     name = {
       name = "harpy matriarch"
