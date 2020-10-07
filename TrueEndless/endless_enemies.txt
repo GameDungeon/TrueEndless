@@ -102,26 +102,6 @@
     { 30000 60000 }
     100
   }
-  {
-    {
-      all = {
-		10 "KNIGHT"
-		8 "ARCHER"
-		3 "PRIEST"
-		2 "TRUE_ANGEL"
-		2 "TRUE_CHERUB"
-		2 "GALEAM"
-      }
-      uniques = { "DUKE" }
-      count = { 20 28 }
-      baseLevelIncrease = { MELEE 5 SPELL 40 ARCHERY 40}
-      inventory = { { Scroll Area 1 DestroyWalls DIG } }
-    }
-    KillLeader
-    "a bastion of knights"
-    { 60000 100000 }
-    100
-  }
 
 ### Dwarves
   {
@@ -184,7 +164,7 @@
     { 15000 30000 }
     50
   }
-    {
+  {
     {
       all = {
         8 "TRUE_DWARF"
@@ -198,7 +178,7 @@
     }
     KillLeader
     "an entire dwarf mountainhome"
-    { 30000 100000 }
+    { 30000 60000 }
     100
   }
 
@@ -304,24 +284,7 @@
     { 30000 60000 }
     100
   }
-  {
-    {
-      all = {
-		10 "TRUE_ELF"
-		10 "ELF_ARCHER"
-		4 "ENT"
-		3 "UNICORN"
-      }
-	  uniques = { "GREEN_DRAGON" "ELF_LORD"}
-      count = { 24 30 }
-      baseLevelIncrease = { MELEE 10 SPELL 56 ARCHERY 48}
-      inventory = { { Scroll Area 1 DestroyWalls DIG } }
-    }
-    KillLeader
-    "a whole elven forest"
-    { 60000 100000 }
-    100
-  }
+
 
 ### Teutons
   {
@@ -450,24 +413,6 @@
     { 30000 60000 }
     100
   }
-  {
-    {
-      all = {
-        10 "DARK_ELF_WARRIOR"
-        8 "TRUE_DARK_ELF"
-		4 "BLACK_NAGA"
-		2 "SHELOB"
-      }
-      uniques = { "BLACK_DRAGON" "TRUE_DARK_ELF_LORD" }
-      count = { 20 28 }
-      baseLevelIncrease = { MELEE 16 SPELL 64}
-      inventory = { { Scroll Area 1 DestroyWalls DIG } }
-    }
-    KillLeader
-    "a whole dark elf dungeon"
-    { 60000 100000 }
-    100
-  }
 
  ### Greenskin
 
@@ -579,7 +524,7 @@
 	  }
 	  uniques = { "TRUE_OGRE_WARLORD" }
       count = { 26 32 }
-      baseLevelIncrease = { MELEE 24 SPELL 36 ARCHERY 36 }
+      baseLevelIncrease = { MELEE 24 SPELL 32 ARCHERY 32 }
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
     }
     KillLeader
@@ -587,26 +532,7 @@
     { 30000 60000 }
     100
   }
- {
-    {
-      all = {
-		6 "TRUE_ORC"
-		2 "ORC_HEALER"
-		1 "ORC_SHAMAN"
-		1 "ORC_MAGE"
-		4 "TRUE_HARPY"
-		4 "TRUE_OGRE"
-	  }
-	  uniques = { "TRUE_OGRE_WARLORD" }
-      count = { 26 32 }
-      baseLevelIncrease = { MELEE 24 SPELL 72 ARCHERY 72 }
-      inventory = { { Scroll Area 1 DestroyWalls DIG } }
-    }
-    KillLeader
-    "a horde of greenskins"
-    { 60000 100000 }
-    100
-  }
+
 
  ### Undead
    {
@@ -764,7 +690,7 @@
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
     }
     KillLeader
-    "an army from hell"
+    "a devil army"
     { 15000 30000 }
     50
   }
@@ -782,26 +708,8 @@
       inventory = { { Scroll Area 1 DestroyWalls DIG } }
     }
     KillLeader
-    "a devilish legion"
+    "a hellish legion"
     { 30000 60000 }
-    100
-  }
-  {
-    {
-      all = {
-		12 "DEVIL_VAULT"
-		8 "ICE_DEMON"
-		2 "SUCCUBUS"
-		2 "DEMON_LORD"
-      }
-      uniques = { "DEVIL" }
-      count = { 20 28 }
-      baseLevelIncrease = { MELEE 12 SPELL 64 }
-      inventory = { { Scroll Area 1 DestroyWalls DIG } }
-    }
-    KillLeader
-    "a devilish legion"
-    { 60000 100000 }
     100
   }
 }
@@ -895,7 +803,7 @@
     { 15000 30000 }
     50
   }
-    {
+  {
     {
       all = {
         8 "KOBOLD"
@@ -1503,6 +1411,17 @@
   }
   {
     {
+      all = { 1 "ADVENTURER" }
+      count = { 1 }
+      baseLevelIncrease = { MELEE 0 }
+    }
+    KillLeader
+    "an arrogant adventurer"
+    { 4500 9000 }
+    1
+  }
+  {
+    {
       all = { 1 "CYCLOPS" }
       count = { 1 }
       baseLevelIncrease = { MELEE 5 }
@@ -1748,12 +1667,168 @@
     { 15000 100000 }
     1
   }
-
+  {
+    {
+      all = { 1 "HARPY" }
+      count = { 4 6 }
+	  uniques = { "TRUE_HARPY_MATRIARCH" }
+      baseLevelIncrease = { MELEE 15 ARCHERY 15 }
+    }
+    KillLeader
+    "a harpy nest looking to roost"
+    { 15000 30000 }
+    1
+  }
+  {
+    {
+      all = { 1 "ADVENTURER" }
+      count = { 3 5 }
+      baseLevelIncrease = { MELEE 0 SPELL 10 ARCHERY 10 }
+    }
+    KillLeader
+    "a group of adventurers"
+    { 15000 30000 }
+    1
+  }
+  {
+    {
+      all = { 1 "ADVENTURER" }
+      count = { 3 5 }
+      baseLevelIncrease = { MELEE 0 SPELL 25 ARCHERY 25 }
+    }
+    KillLeader
+    "a group of adventurers"
+    { 30000 60000 }
+    2
+  }
+  {
+    {
+      all = { 1 "ADVENTURER" }
+      count = { 3 5 }
+      baseLevelIncrease = { MELEE 0 SPELL 45 ARCHERY 45 }
+    }
+    KillLeader
+    "a group of adventurers"
+    { 60000 100000 }
+    2
+  }
 }
+
   ### ENDGAME
 
  "endgame"
 {
+  {
+    {
+      all = {
+		10 "KNIGHT"
+		8 "ARCHER"
+		3 "PRIEST"
+		2 "TRUE_ANGEL"
+		2 "TRUE_CHERUB"
+		2 "GALEAM"
+      }
+      uniques = { "DUKE" }
+      count = { 20 28 }
+      baseLevelIncrease = { MELEE 5 SPELL 40 ARCHERY 40}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a bastion of knights"
+    { 60000 100000 }
+    100
+  }
+  {
+    {
+      all = {
+        8 "TRUE_DWARF"
+        6 "DWARF_FIGHTER"
+		4 "RED_NAGA"
+      }
+      uniques = { "RED_DRAGON" "DWARF_BARON" }
+      count = { 20 28 }
+      baseLevelIncrease = { MELEE 10}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "an entire dwarf mountainhome"
+    { 60000 100000 }
+    100
+  }
+  {
+    {
+      all = {
+		10 "TRUE_ELF"
+		10 "ELF_ARCHER"
+		4 "ENT"
+		3 "UNICORN"
+      }
+	  uniques = { "GREEN_DRAGON" "ELF_LORD"}
+      count = { 24 30 }
+      baseLevelIncrease = { MELEE 10 SPELL 56 ARCHERY 48}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a whole elven forest"
+    { 60000 100000 }
+    100
+  }
+  {
+    {
+      all = {
+        10 "DARK_ELF_WARRIOR"
+        8 "TRUE_DARK_ELF"
+		4 "BLACK_NAGA"
+		2 "SHELOB"
+      }
+      uniques = { "BLACK_DRAGON" "TRUE_DARK_ELF_LORD" }
+      count = { 20 28 }
+      baseLevelIncrease = { MELEE 16 SPELL 64}
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a whole dark elf dungeon"
+    { 60000 100000 }
+    100
+  }
+  {
+    {
+      all = {
+		6 "TRUE_ORC"
+		2 "ORC_HEALER"
+		1 "ORC_SHAMAN"
+		1 "ORC_MAGE"
+		4 "TRUE_HARPY"
+		4 "TRUE_OGRE"
+	  }
+	  uniques = { "TRUE_OGRE_WARLORD" }
+      count = { 26 32 }
+      baseLevelIncrease = { MELEE 24 SPELL 64 ARCHERY 64 }
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a horde of greenskins"
+    { 60000 100000 }
+    100
+  }
+  {
+    {
+      all = {
+		12 "DEVIL_VAULT"
+		8 "ICE_DEMON"
+		2 "SUCCUBUS"
+		2 "DEMON_LORD"
+      }
+      uniques = { "DEVIL" }
+      count = { 20 28 }
+      baseLevelIncrease = { MELEE 12 SPELL 64 }
+      inventory = { { Scroll Area 1 DestroyWalls DIG } }
+    }
+    KillLeader
+    "a hellish legion"
+    { 60000 100000 }
+    100
+  }
   {
     {
       all = {
@@ -1770,10 +1845,79 @@
 				  "GREEN_DRAGON"
 				  "YELLOW_DRAGON"
 				}
-      baseLevelIncrease = { MELEE 25 SPELL 25 }
+      baseLevelIncrease = { MELEE 15 SPELL 115 }
     }
-    KillLeader
+    CampAndSpawn {
+      all = {
+	  1 "BLACK_NAGA"
+	  1 "WHITE_NAGA"
+	  1 "RED_NAGA"
+	  1 "UNICORN"
+	  1 "YELLOW_NAGA"
+	  1 "TRUE_LIZARDMAN"
+	  1 "DWARF_FIGHTER"
+	  1 "TRUE_DARK_ELF"
+	  1 "TRUE_YETI"
+	  1 "ELF_ARCHER"
+      }
+      count = { 24 32 }
+      baseLevelIncrease = { MELEE 15 ARCHERY 105 SPELL 115 }
+    }
     "a dragon conclave"
+    { 100000 500000 }
+    1
+  }
+  {
+    {
+      all = {
+	  6 "DEVIL_VAULT"
+	  2 "SUCCUBUS"
+	  1 "DEVIL"
+	  4 "ICE_DEMON"
+	  2 "DEMON_LORD"
+	  }
+      count = { 24 32 }
+	  uniques = { "SATAN" }
+      baseLevelIncrease = { MELEE 15 SPELL 115 }
+    }
+    CampAndSpawn {
+      all = {
+	  6 "DEVIL_VAULT"
+	  2 "SUCCUBUS"
+	  1 "DEVIL"
+	  4 "ICE_DEMON"
+	  2 "DEMON_LORD"
+      }
+      count = { 24 32 }
+      baseLevelIncrease = { MELEE 15 SPELL 115 }
+    }
+    "a satanic invasion"
+    { 100000 500000 }
+    1
+  }
+  {
+    {
+      all = {
+	  6 "ANGEL"
+	  2 "TRUE_GALEAM"
+	  4 "TRUE_CHERUB"
+	  2 "TRUE_ANGEL"
+	  }
+      count = { 24 32 }
+	  uniques = { "TRUE_EMISSARY" }
+      baseLevelIncrease = { MELEE 15 ARCHERY 90 SPELL 120 }
+    }
+    CampAndSpawn {
+      all = {
+	  6 "ANGEL"
+	  2 "TRUE_GALEAM"
+	  4 "TRUE_CHERUB"
+	  2 "TRUE_ANGEL"
+      }
+      count = { 24 32 }
+      baseLevelIncrease = { MELEE 15 ARCHERY 90 SPELL 120 }
+    }
+    "a divine invasion"
     { 100000 500000 }
     1
   }
