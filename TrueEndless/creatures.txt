@@ -312,3 +312,16 @@
       firstNameGen = "DOG"
     }
   }
+
+"TRUE_AUTOMATON" inherit "AUTOMATON"
+  {
+    attr = {
+      DAMAGE 25
+      DEFENSE 25
+    }
+    permanentEffects = {
+      MELEE_RESISTANCE 1
+	  INSANITY 1
+	  SLOWED 1
+    }
+  }

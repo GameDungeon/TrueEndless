@@ -788,7 +788,7 @@
   {
     {
       all = {
-        10 "KOBOLD"
+        10 "TRUE_KOBOLD"
         8 "TRUE_LIZARDMAN"
         3 "YELLOW_NAGA"
 		2 "HYDRA"
@@ -806,7 +806,7 @@
   {
     {
       all = {
-        8 "KOBOLD"
+        8 "TRUE_KOBOLD"
         8 "TRUE_LIZARDMAN"
         4 "YELLOW_NAGA"
 		2 "HYDRA"
@@ -1235,11 +1235,12 @@
     {
     {
       all = { 1 "GNOME" }
-      count = { 5 }
+      count = { 4 }
+	  uniques = { "GNOME" "TRUE_AUTOMATON" }
       baseLevelIncrease = { MELEE 1 }
     }
     KillLeader
-    "a gnomish expedition"
+    "a terrified gnomish expedition"
     { 3000 4500 }
     1
   }
