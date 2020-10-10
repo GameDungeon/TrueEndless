@@ -5,4 +5,6 @@ Get attacked by diverse, ever-more-challenging waves of enemies. From a few kobo
 
 How long can you survive?
 
-V0.3"
+V1.0
+
+Github: https://github.com/GameDungeon/TrueEndless/"
