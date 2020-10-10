@@ -1,6 +1,3 @@
-# The ids are there to modify, inherit, etc.
-# They also get ordered alphabetically, hence the 1, 2, ... in the front.
-
 "1_dark_mage" modify 
 	{
 	endlessEnemyGroups = { "lawful" "neutral" "endgame" }
@@ -13,11 +10,10 @@
 
 "3_white_knight" modify
 	{
-	endlessEnemyGroups = { "lawful" "neutral" "endgame" }
+	endlessEnemyGroups = { "evil" "neutral" "endgame" }
 	}
 "4_gnomes" modify
 	{
-	endlessEnemyGroups = { "lawful" "neutral" "endgame" }
+	endlessEnemyGroups = { "evil" "neutral" "endgame" }
 	}
-}
 
