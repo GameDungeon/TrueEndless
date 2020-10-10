@@ -1,10 +1,12 @@
 "GameDungeon and Speed"
-"A True Endless experience. 
+"A True Endless experience.
 
 Get attacked by diverse, ever-more-challenging waves of enemies. From a few kobolds to a set of massive armies lead by fearsome warlords and mythical beasts.
 
 How long can you survive?
 
+90% of the credit goes to Speed. Thank you :)
+
 V1.0
 
-Github: https://github.com/GameDungeon/TrueEndless/"
+Github: https://github.com/GameDungeon/TrueEndless"
