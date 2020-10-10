@@ -24,7 +24,7 @@
   {
       spells = { "bolster" "rally" "heal spirit" "heal spirit group"}
   }
-  
+
   "TRUE_EMISSARY" inherit "PRIEST_PLAYER"
   {
     viewId = { "priest" }
@@ -41,7 +41,7 @@
       fullTitle = true
     }
   }
-  
+
   "TRUE_DWARF" inherit "DWARF"
   {
      inventory = {
@@ -131,7 +131,7 @@
     attr = {
       DAMAGE 18
       DEFENSE 21
-      RANGED_DAMAGE 22 
+      RANGED_DAMAGE 22
     }
       inventory = {
       { "Bow"}
@@ -284,6 +284,10 @@
   }
   "TRUE_WEREWOLF" inherit "WEREWOLF"
   {
+    attr = {
+      DAMAGE 25
+      DEFENSE 10
+      }
     inventory = {
 	  { "Knife" }
 	  { "ChainArmor" }
@@ -295,7 +299,7 @@
   {
     attr = {
       DAMAGE 25
-      DEFENSE 12
+      DEFENSE 15
     }
     inventory = {
 	  { type = "Knife" prefixChance = 1}

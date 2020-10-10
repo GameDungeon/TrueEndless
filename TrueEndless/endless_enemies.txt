@@ -219,7 +219,7 @@
   }
     {
     {
-      all = {		
+      all = {
 		6 "ELF_ARCHER"
 		6 "TRUE_ELF"
 		1 "ENT"
@@ -1186,7 +1186,7 @@
     {
       all = { 1 "AIR_ELEMENTAL" }
       count = { 1 }
-      baseLevelIncrease = { MELEE -15 }
+      baseLevelIncrease = { MELEE -5 }
     }
     KillLeader
     "an elementalist's scout"
@@ -1362,23 +1362,12 @@
 
   {
     {
-      all = { 1 "BANDIT" }
-      count = { 1 }
-      baseLevelIncrease = { MELEE 0 }
-    }
-    KillLeader
-    "a curious bandit"
-    { 1 2500 }
-    1
-  }
-  {
-    {
-      all = { 1 "WEREWOLF" }
+      all = { 1 "TRUE_WEREWOLF" }
       count = { 1 }
       baseLevelIncrease = { MELEE -2 }
     }
     KillLeader
-    "a lunatic werewolf"
+    "a moon crazed werewolf"
     { 1500 3000 }
     1
   }
@@ -1534,7 +1523,7 @@
     KillLeader
     "a strange soft monster"
     { 15000 100000 }
-    2
+    1
   }
   {
     {
