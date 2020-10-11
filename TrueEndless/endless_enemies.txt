@@ -1490,18 +1490,16 @@
   {
     {
       all = {
-	  1 "BLACK_DRAGON"
-	  1 "WHITE_DRAGON"
 	  1 "RED_DRAGON"
 	  1 "GREEN_DRAGON"
 	  1 "YELLOW_DRAGON"
 	  }
       count = { 1 }
-      baseLevelIncrease = { MELEE -5 }
+      baseLevelIncrease = { MELEE -10 }
     }
     KillLeader
     "a homeless dragon"
-    { 10500 15000 }
+    { 10000 15000 }
     1
   }
    {
@@ -1642,7 +1640,7 @@
     }
     KillLeader
     "a motley fool"
-    { 3000 100000 }
+    { 3000 5000 }
     1
   }
   {
