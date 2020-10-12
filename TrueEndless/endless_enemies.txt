@@ -18,10 +18,10 @@
   {
     {
       all = {
-		1 "PRIEST_PLAYER"
 		2 "CLERIC"
 	  }
       count = { 3 }
+	  uniques = { "PRIEST_PLAYER" }
       baseLevelIncrease = { MELEE 4 SPELL 4 }
     }
     KillLeader
@@ -210,7 +210,7 @@
     {
       all = { 1 "ELF_ARCHER" }
       count = { 4 6 }
-      baseLevelIncrease = { MELEE 4 }
+      baseLevelIncrease = { MELEE 5 RANGED -10}
     }
     KillLeader
     "an elf archer hitsquad"
@@ -225,7 +225,7 @@
 		1 "ENT"
 	  }
       count = { 10 14 }
-      baseLevelIncrease = { MELEE 5 SPELL 6 ARCHERY 2}
+      baseLevelIncrease = { MELEE 5 SPELL 6 ARCHERY 0}
     }
     KillLeader
     "an elf squadron"
@@ -827,10 +827,10 @@
   {
     {
       all = {
-	   1 "ESKIMO"
 	   1 "HUSKY"
 	   }
-      count = { 1 }
+      count = { 2 }
+	  uniques = { "ESKIMO" }
       baseLevelIncrease = { MELEE 0 }
     }
     KillLeader
@@ -841,10 +841,10 @@
     {
     {
       all = {
-	   2 "ESKIMO"
 	   4 "HUSKY"
 	   }
       count = { 6 }
+	  uniques = { "ESKIMO" "ESKIMO" }
       baseLevelIncrease = { MELEE 0 }
     }
     KillLeader
@@ -974,9 +974,9 @@
     {
       all = {
 	    4 "WEREWOLF"
-		1 "TRUE_WEREWOLF"
 		}
       count = { 4 6 }
+	  uniques = { "TRUE_WEREWOLF" }
       baseLevelIncrease = { MELEE 4 }
     }
     KillLeader
@@ -1048,7 +1048,7 @@
     }
     KillLeader
     "the black death"
-    { 1500 3000 }
+    { 3000 4500 }
     1
   }
   {
@@ -1071,9 +1071,9 @@
    {
     {
       all = {
-	  1 "NOMAD"
 	  1 "CAMEL"
 	  }
+	  uniques = { "NOMAD" }
       count = { 2 }
       baseLevelIncrease = { MELEE 0 }
     }
@@ -1235,9 +1235,9 @@
     {
     {
       all = { 1 "GNOME" }
-      count = { 4 }
+      count = { 6 }
 	  uniques = { "GNOME" "TRUE_AUTOMATON" }
-      baseLevelIncrease = { MELEE 1 }
+      baseLevelIncrease = { MELEE 0 }
     }
     KillLeader
     "a terrified gnomish expedition"
@@ -1368,8 +1368,8 @@
       baseLevelIncrease = { MELEE -2 }
     }
     KillLeader
-    "a moon crazed werewolf"
-    { 1500 3000 }
+    "a moon-crazed werewolf"
+    { 1500 2500 }
     1
   }
   {
@@ -1490,6 +1490,8 @@
   {
     {
       all = {
+	  1 "BLACK_DRAGON"
+	  1 "WHITE_DRAGON"
 	  1 "RED_DRAGON"
 	  1 "GREEN_DRAGON"
 	  1 "YELLOW_DRAGON"
@@ -1625,11 +1627,11 @@
     {
       all = { 1 "BANDIT" }
       count = { 6 10 }
-      baseLevelIncrease = { MELEE 0 }
+      baseLevelIncrease = { MELEE 7 }
     }
     KillLeader
     "a gang of bandits"
-    { 1500 100000 }
+    { 3000 100000 }
     5
   }
   {
@@ -1640,7 +1642,7 @@
     }
     KillLeader
     "a motley fool"
-    { 3000 5000 }
+    { 3000 8000 }
     1
   }
   {
